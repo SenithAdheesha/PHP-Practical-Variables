@@ -1,0 +1,13 @@
+
+<?php
+
+$a = 5;
+$b = &$a;   // $b is a reference to $a
+
+$b = 10;    // changing $b also changes $a
+
+echo $a;    // Output: 10
+echo "<br>";
+echo $b;    // Output: 10
+
+?>
