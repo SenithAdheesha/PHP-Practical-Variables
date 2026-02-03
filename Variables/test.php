@@ -23,7 +23,13 @@ global $x,$y;
  echo "<br>";
  echo $y;
  }
+
+$a = array("Red","Green");
+array_push($a,"Orange");
+array_pop($a);
+print_r $a;
  
  f1();
 ?>
+
 
