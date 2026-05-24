@@ -2,7 +2,8 @@
 <?php
 
 $a = 5;
-$b = &$a;   // $b is a reference to $a
+$b = &$a;// $b is a reference to $a
+$c = &$b;
 
 
 $b = 10;    // changing $b also changes $a
