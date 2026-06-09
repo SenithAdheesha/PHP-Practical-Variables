@@ -9,6 +9,7 @@ $e = &$d;
 
 
 $b = 10;    // changing $b also changes $a
+$d = 50;    // changing $b also changes $a
 
 echo $a;    // Output: 10
 echo "<br>";
