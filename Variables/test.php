@@ -15,6 +15,7 @@ $c = 80;    // changing $b also changes $a
 echo $a;    // Output: 10
 echo "<br>";
 echo $b;    // Output: 10
+echo $c;    // Output: 10
 
 
 //cinstant variable and scope 
