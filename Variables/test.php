@@ -6,6 +6,7 @@ $b = &$a;// $b is a reference to $a
 $c = &$b;
 $d = &$c;
 $e = &$d;
+$f = &$d;
 
 
 $b = 10;    // changing $b also changes $a
