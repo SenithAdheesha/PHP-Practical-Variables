@@ -19,6 +19,7 @@ echo $a;    // Output: 10
 echo "<br>";
 echo $b;    // Output: 10
 echo $c;    // Output: 10
+echo $f;    // Output: 10
 
 
 //cinstant variable and scope 
