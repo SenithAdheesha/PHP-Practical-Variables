@@ -3,17 +3,10 @@
 
 $a = 5;
 $b = &$a;// $b is a reference to $a
-$c = &$b;
-$d = &$c;
-$e = &$d;
-$f = &$d;
+
 
 
 $b = 10;    // changing $b also changes $a
-$d = 50;    // changing $b also changes $a
-$c = 80;    // changing $b also changes $a
-$d = 90;    // changing $b also changes $a
-$a = 70;    // changing $b also changes $a
 
 echo $a;    // Output: 10
 echo "<br>";
