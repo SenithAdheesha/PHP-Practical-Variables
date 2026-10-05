@@ -1,16 +1,6 @@
 
 <?php
 
-$a = 20;
-$b = &$a;// $b is a reference to $a
-$c =8;
-
-
-$b = 10;    // changing $b also changes $a
-
-echo $a;    // Output: 10
-echo "<br>";
-echo $b;    // Output: 10
 
 
 
