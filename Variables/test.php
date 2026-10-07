@@ -8,6 +8,7 @@
 define("sName","Senith");
 $x = "Adheesha";
 $y = 3;
+$a = 10;
 
 function f1(){
 global $x,$y;
