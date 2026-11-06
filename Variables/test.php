@@ -13,7 +13,7 @@ function f1(){
 global $x,$y;
  echo $x;
  echo "<br>";
- echo $y;
+
  }
 
 $a = array("Red","Green");
