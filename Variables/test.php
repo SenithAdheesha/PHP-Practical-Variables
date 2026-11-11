@@ -6,6 +6,7 @@
 
 //cinstant variable and scope 
 define("sName","Test Name");
+define("sAddress","Test Address");
 $x = "Senith";
 $y = 3;
 
