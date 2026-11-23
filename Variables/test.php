@@ -18,11 +18,12 @@ global $x,$y;
  }
 
 $a = array("Red","Green");
-array_push($a,"Orange");
+array_push($a,"Jason");
 array_pop($a);
 print_r $a;
  
  f1();
 ?>
+
 
 
